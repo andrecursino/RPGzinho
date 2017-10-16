@@ -1,5 +1,6 @@
 from teste1.atributos_personagem import *
 
+
 class Cacador(AtributosPersonagem):
     def __init__(self):
         super().__init__(self, self, self, self, self, self, self, self)
@@ -45,7 +46,6 @@ class Guerreiro(AtributosPersonagem):
         self.mp = AtributosPersonagem.pontos_de_magia(self, 5)
 
 
-
 class Ladino(AtributosPersonagem):
     def __init__(self):
         super().__init__(self, self, self, self, self, self, self, self)
@@ -59,7 +59,6 @@ class Ladino(AtributosPersonagem):
         self.carisma = 1
         self.hp = AtributosPersonagem.pontos_de_vida(self, 8)
         self.mp = AtributosPersonagem.pontos_de_magia(self, 5)
-
 
 
 class Mago(AtributosPersonagem):
