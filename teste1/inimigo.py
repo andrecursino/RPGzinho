@@ -1,5 +1,6 @@
 from teste1.atributos_personagem import *
 
+
 class Inimigo(AtributosPersonagem):
     def __init__(self):
         super().__init__(self, self, self, self, self, self, self, self)
